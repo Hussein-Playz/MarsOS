@@ -1,4 +1,3 @@
-; This is the beta version of MarsOS features are added here before they release
 [bits 16]           
 [org 0x7c00]        
 
