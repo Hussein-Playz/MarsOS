@@ -1,3 +1,4 @@
+; This is the beta version of MarsOS features are added here before they release
 [bits 16]           
 [org 0x7c00]        
 
@@ -54,7 +55,7 @@ start:
     login_password db 'Password : ',0
     
 
-    os_info db 10, 'OS: MarsOS, Bits: 16-Bit, version: =1.2.3',13,0
+    os_info db 10, 'OS: MarsOS, Bits: 16-Bit, version: =1.2.4 Bootable: = true',13,0
 
     press_key_2 db 10,'Press any key to go to Desktop...',0
     display_text db ' ',0
@@ -438,3 +439,4 @@ _belowLineTopLine_perPixel_Loop:
 
     times (1024 - ($-$$)) db 0x00
 
+;this is the end of the code
