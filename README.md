@@ -3,4 +3,4 @@ Hello Human This is a OS called MarsOS you can test this out in a VM or using qe
 
 # ChangeLog
 
-made the OS bootable you can use the [Raspberry Pi iamger](https://www.raspberrypi.org/software/) to make a bootable USB to my OS
+made the OS bootable you can use the [Raspberry Pi imager](https://www.raspberrypi.org/software/) to make a bootable USB to my OS
